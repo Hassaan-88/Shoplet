@@ -1,0 +1,279 @@
+/***************************************************************SHOPLET HOMEPAGE CSS**********************************************************/
+  
+body{
+    background-color: rgb(136, 135, 135);
+}
+
+.infodvColor{
+  background-color: rgb(136, 135, 135);
+}
+
+.infodv{
+    float: left; 
+    width: 130px;
+}
+
+.bgimg {
+    background-image: url('images/Background imgs/bg-img1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .dvPoster{
+    height: 300px; 
+    border-color: rgb(76, 0, 76);
+  }
+
+  .navColor{
+    background-color: rgb(248, 183, 6);
+  }
+
+  .navlinkColor{
+    background-color: rgb(71, 2, 71);
+  }
+
+  .ddItemFont{
+    font-size: 14px;
+  }
+
+  .cartIcon{
+    position: relative; 
+    bottom: 20px; 
+    margin-left: 100px;
+  }
+
+  .cartHeading{
+    position: relative; 
+    right: 25%; 
+    color: rgb(39, 0, 75); 
+    font-weight: 600;
+  }
+
+  .jumboPara{
+    color: rgb(107, 1, 107); 
+    font-weight: 400;
+  }
+
+  .jumboCite{
+    font-size: medium; 
+    font-weight: 400;
+  }
+
+  .carouselBtn{
+    color: rgb(71, 2, 71); 
+    font-weight: bold;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+}
+
+.nav-item:hover .dropdown-menu{
+    display: block;
+} 
+
+.dropdown-menu a:hover{
+    background-color: rgb(71, 2, 71);
+    border-radius: 10px;
+    color: #ccc;
+}
+
+.carousel-item{
+    height: 500px;
+    width: 100%;
+} 
+.carousel-item img{
+    height: 500px;
+    width:100%;
+}
+
+.directionIcon{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(71, 2, 71);
+    border-radius: 15px;
+    }
+    ol.carousel-indicators {
+        position: absolute;
+        bottom: 5px;
+        margin: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+     }
+     
+     ol.carousel-indicators li,
+     ol.carousel-indicators li.active {
+        width: 1rem;
+        height: 1rem;
+        margin: 0;
+        border-radius: 50%;
+        border: 0;
+        background: transparent;
+     }
+     
+     ol.carousel-indicators li {
+        background: rgb(71, 2, 71);
+        margin-left: .5rem;
+        margin-right: .5rem;
+     }
+     
+     ol.carousel-indicators li.active {
+        background: rgba(255, 255, 255, 0.904);
+     }
+
+     .carouselHeading{
+        background: transparent; 
+        background-color: rgb(206, 197, 197); 
+        color: black; 
+        font-weight: bold; 
+        font-size: 35px;
+        border-radius: 100px;
+     }
+
+     .hr1Height{
+      height: 0.7%;
+     }
+
+     .contentHeading{
+      text-shadow: 1px 1px 3px rgb(71, 2, 71); 
+      font-size: 50px;
+     }
+
+     .cardImgs{
+      height: 250px;
+     }
+
+     .cardDesigning{
+      box-shadow: 0px 0px 7px 7px whitesmoke; 
+      background-color: wheat;
+     }
+
+     .cardBtn{
+      color: rgb(71, 2, 71);
+     }
+
+     footer{
+      background-color: rgb(20, 20, 20);
+     }
+
+     .fContactIcons{
+      font-size: larger; 
+      color: rgb(216, 212, 212);
+     }
+
+     .fContactInfo{
+      font-style: italic; 
+      font-size: large; 
+      font-weight: 500;
+     }
+
+     .fConnectHeading{
+      color: rgb(216, 212, 212);
+     }
+
+     .hrConnect1{
+      margin-left: 0px; 
+      margin-top: 0px; 
+      height: 1.2%;
+     }
+
+     .hrConnect2{
+      position: relative; 
+      bottom: 17px; 
+      height: 0.5%;
+     }
+
+     .fbIcon{
+      position: relative; 
+      bottom: 20px;
+     }
+
+     .fbIconSize, .twtIconSize{
+      font-size: x-large;
+     }
+
+     .twtIcon{
+      position: relative; 
+      bottom: 20px; 
+      left: 20px;
+     }
+
+     .copyright{
+      color: black; 
+      margin-bottom: 2px; 
+      font-weight: 500;
+     }
+
+     .scrollUp {
+      display: none;
+      background: rgb(214, 209, 209);
+      position: fixed;
+      right: 15px;
+      text-align: center;
+      width: 50px;
+      bottom: 15px;
+      height: 50px;
+      padding: 2px;
+      border-radius: 50px;
+  }
+  
+  .scrollUp:hover{
+      background-color: rgb(97, 95, 95);
+  }
+
+  .scrollUpIcon{
+    font-size: 35px; 
+    color:rgb(71, 2, 71); 
+    margin-top: 3px;
+  }
+
+  /***************************************************************Clothes Pages CSS**********************************************************/
+
+  .bgimg2{
+    background-image: url('images/Background imgs/bg-img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .dvPoster2{
+    height: 300px; 
+    border-color: rgb(76, 0, 76);
+  }
+
+  .mwHeading{
+    text-shadow: 1px 1px 3px rgb(71, 2, 71); 
+    font-size: 70px;
+   }
+  
+   .priceFont{
+     font-style: normal;
+     font-size: larger;
+     font-weight: 500;
+     font-family: fantasy;
+     color: rgb(76, 0, 76);
+   }
+
+   .atcBtn{
+     margin-left: 70px;
+   }
+
+   /***************************************************************Clothes Pages CSS**********************************************************/
+   .mwHeading2{
+    text-shadow: 1px 1px 10px rgb(71, 2, 71);
+    color: rgb(247, 150, 5); 
+    font-size: 70px;
+   }
+    /**************************************************************Login & Cart Pages CSS**********************************************************/
+.txtStyle{
+  font-weight:bold;
+  font-size: large;
+  color:rgb(76, 0, 76);
+}
+.btnTxt{
+  color:rgb(76, 0, 76);
+  font-weight: bold;
+}
